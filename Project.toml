@@ -1,6 +1,6 @@
 name = "VTK_jll"
 uuid = "74d5c060-2aa8-5f16-b7f5-964146ffbc58"
-version = "9.5.1+0"
+version = "9.5.2+0"
 
 [deps]
 FreeType2_jll = "d7e528f0-a631-5988-bf34-fe36492bcfd7"
