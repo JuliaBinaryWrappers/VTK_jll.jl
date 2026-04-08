@@ -1,368 +1,336 @@
 [[VTK]]
 arch = "aarch64"
-git-tree-sha1 = "eef054f7dd081af5d7b97f0822a24dded3eb97e3"
+git-tree-sha1 = "704570d6a02d3482c0037b142975cbabe9dd30f7"
+lazy = true
+mpi = "mpiabi"
+os = "macos"
+
+    [[VTK.download]]
+    sha256 = "fc3331a558116657a377b7328c5de113ab098ee3548d9bc021400dc41168de77"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "aarch64"
+git-tree-sha1 = "0fbddbc8357b1097d400c92b542e38d29349bf0b"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[VTK.download]]
-    sha256 = "4e6c8ba8dab09df6ccd9cfd7f97fadab59f30826261884b60fbdd897d0e717e3"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "e0a10b4b8bdd5a2c6f3c75b7db3b6a586c74f3a9a9f995bd1cffaca2cc9d23cd"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "aarch64"
-git-tree-sha1 = "6dc8e770e7a9c82cbcda454b72e13221be7d2961"
+git-tree-sha1 = "397bf5452cb02b4f153bbf2e47ab7be478208da0"
 lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[VTK.download]]
-    sha256 = "cab1ec6512093c93086e950783eb396c2fc434f38a60b3aba25472dbc02ca336"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+    sha256 = "106414895d9021fbccc47607da18c5f9146630cdd59d73c5c2afb1e36963ce07"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-apple-darwin-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "fe3c81358726aeaed742b96ab49eefce547952f7"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6e908a17d6bac07a60b11e8f089241b18584f0c0"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[VTK.download]]
+    sha256 = "c963945c293ef3e5ccb63cf557a2205ab404f7cd012b99f3f3a4cd1e07d8ddce"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "970adf4ce006d9ece2c1ee0fc94c328453c688bb"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "4d9328688e69c14cc217893fb87f66d280c0288063a659117ebc93caae1dddaa"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "7fcfb2f5e525c267fea698aee9c7aec5fa6ea61c75e472d7984246e970975302"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d7b88dfac9871704d62c2c11e4a3077be32cd1b0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "94d762aa0425eaf3726319719923c0955d76a84d"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "09e49a16fc131d3585422e1e44923d1da7625d4019d76b97e99895e7bc082502"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "a9196b6da9cb945be4d26146e9e7fda114d58298da263e0a7eb79c133a6b34da"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "86a2f5f67aea069a4a6c8a8fa2bd310de03a7e37"
+git-tree-sha1 = "8fb62fb9227602b2d6ad0f04f87bc12d85a39dea"
 lazy = true
-libc = "glibc"
-mpi = "mpich"
+libc = "musl"
+mpi = "mpiabi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "4fe4b330f545a20085ab2e07fb98a33e5e7ac6b2b58e3f2438ff6fa522fe3191"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "e93e4cdfdc970d3855c9fe35e085442fe4a321f72e03f684beda3196215df040"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-musl-cxx11-mpi+mpiabi.tar.gz"
 [[VTK]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "72ab489d73b7be1f7faabbc58c1f38d792ac31da"
-lazy = true
-libc = "glibc"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "1adeb73865f44619ffde2ea009bdc83532530e58a641e3ecda4b700258fc27c0"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a6a271fff8d46274ae8f40e6e89b5bec3400f76f"
+git-tree-sha1 = "2cb88a6478256d1737214d05a8e153ce5f34ea5b"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "6e7114ef900ca37f6806619c870bd480311dbdd496f197c674ca301db3117bbb"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-musl-cxx03-mpi+mpich.tar.gz"
+    sha256 = "a86aa6b8a9aebb808e35f329fdb8952b0302dca79ba79cf3a35c995f8b2af806"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c72c82b23f50b0a74ec7c56257f2cafbb10904f4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "09a67ce357535f7dce939ffc8ff87b1697b8b3e1"
 lazy = true
 libc = "musl"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "43b43e7f70726f8c7df78772f0686112426bc6f4aaebffcb29800c7f27565222"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "03ec892d496e06d7ee8e992a5d1a63d0134ccee841cc491b87e317b2b4841b19"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a1cda4b6ad79568bc791ade9e4642bb5975cf9a9"
+git-tree-sha1 = "d1a3b768c8e5967641800e9af266b368ebe7d37a"
 lazy = true
-libc = "musl"
-mpi = "mpich"
-os = "linux"
+mpi = "mpiabi"
+os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "36a950f7b0385a0ced364fd53677b4f623148564a2254e7a930c32bb78aad244"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
+    sha256 = "8ddae5efb1db5fa5f0890c0c6e55c5b301112b2193bed994a36826d9235fbf3c"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-unknown-freebsd-mpi+mpiabi.tar.gz"
 [[VTK]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b9a487e6e81d6aab492bc36851ce4e80fc2a03b5"
-lazy = true
-libc = "musl"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "2dd6521be0ca3c2397f3d331572a04fdc798fc48cf8611c29f05568fb0504a93"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "aarch64"
-git-tree-sha1 = "31705724c567e7d7556e3abf8b5a91b75211f427"
+git-tree-sha1 = "cdeaa04fa336454ee957c19a185379f4f58909f5"
 lazy = true
 mpi = "mpich"
 os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "e1de8868ca7b237b5a8c0220ab6f405526d445c00f52e5ba5ea67d3691212464"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
+    sha256 = "54dd0d5e5535da74100390b5083405de4318a233c69293b0b77642a9de2d7b9c"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "aarch64"
-git-tree-sha1 = "5df2f4e3bdf3dfac0b61ca7ebe17b0045812bf14"
+git-tree-sha1 = "2eb42da222a9c98558f4cf60e4684ff239018c4f"
 lazy = true
 mpi = "openmpi"
 os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "bc37a44b5548c49162ddd6ab714c5911e04ca1e5a61cb565459e9d1f0db73c25"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.aarch64-unknown-freebsd-mpi+openmpi.tar.gz"
+    sha256 = "7c9e249eca0e5fea3f930b951c86a3ef0a61faadfabe279b20f184fe5a1cb5ce"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.aarch64-unknown-freebsd-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ec360f1b0fe1e117fae3d17b0274153dcdb977ca"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "72f9bd170d749a4293d6a29a4866ed4e962d2b61"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[VTK.download]]
+    sha256 = "868b24587fd25f0a7794e7801ee46ab4e6bc050318325bc0137fd73f6f7411b3"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.powerpc64le-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bab8fad959a60705376320f22c56f8f85e04e0df"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "2109aeb74be3ee6ab9e1d2fd95de96f64a9ebdbc715ac55ff0cb1576cbdeadd7"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "95595f6f440f8319d7d19898fd5863a122221124ea96640899eca242569fd923"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f1a4b27206b7a4c45a2dc6e8a1833d1f441f132b"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "930dfe9fc199ae6c121f180332f7462aaa6e8fe9"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "8303ce35a111912b486855380f77cbd1d298d901e5d904e4a841038dd8e56029"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "c2017c1fbdb056f636da6b9491ec0379f2d00f88a4638cc145225cc7ce13497c"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
-arch = "powerpc64le"
+arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "18eadc0234ac765e344264e85ef3ab2530c4c8be"
+git-tree-sha1 = "c1f3de002d75fac338cd02b2081b2cb03e1e48f1"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[VTK.download]]
+    sha256 = "e0b4432c83cea7e9f07c01391d2a48e421a14aea6c492d03b62fc62069b37fa0"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.riscv64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "78c44c957e1acce9fc794c2d3a5cf56ebffe3ff2"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "0d9fbb15987a5b1a0b397d4c47468cd038ceb4c465676713e2d406d23c110cd5"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "ec0fb6f6011202141aba64a6877cb6ee045d5db783b6954edd8cf86319493c7d"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.riscv64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
-arch = "powerpc64le"
+arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "391ba78bcbeb9dc46fee431e799b1106f744f0d7"
+git-tree-sha1 = "3a2c2885c781d98e39f1e33361bb7c1145d5dd53"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "359e4ad33471bc6383761181a16738c783c974f417a4fdb9b3ef838cedbaa09a"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a3351928c5f65392c804f663169adef37db53d04"
-lazy = true
-libc = "glibc"
-mpi = "mpich"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "f1d52da5fcddd9bda358939016275f60612f4e91bc6a6a19bd177e8a89f686c2"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.riscv64-linux-gnu-cxx03-mpi+mpich.tar.gz"
-[[VTK]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2a12c2b6e642b1770f07b3fe5f300a7fea35fab9"
-lazy = true
-libc = "glibc"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "52538d584e3bdc4391edc1c7cfc056ec69d33dab7b4746ff6c2e1021cf5294df"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.riscv64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "riscv64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2008814f2c5c97da88a454cbcf1affc109f9208f"
-lazy = true
-libc = "glibc"
-mpi = "mpich"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "7a423fe269b137d6baf04f5d552aa81a263f0bda9f2e84739feb1c2090a38db6"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.riscv64-linux-gnu-cxx11-mpi+mpich.tar.gz"
-[[VTK]]
-arch = "riscv64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3e898a336e69f27506a85ad8228e548dc7421b86"
-lazy = true
-libc = "glibc"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "158f2725963368a4d3b10cc81469214e90abd6d04d040bd2ab324a2408089c58"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.riscv64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+    sha256 = "502ff56e757df2b8e03e97b0026bb4ce6677d0cd29c194254a08907b7d0561b8"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.riscv64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "x86_64"
-git-tree-sha1 = "82b12ea6ab01e79adc5de23a54092fbfd6314ca1"
+git-tree-sha1 = "cdd34d5911e8c85c49e20e72bb63aaebe35506a7"
+lazy = true
+mpi = "mpiabi"
+os = "macos"
+
+    [[VTK.download]]
+    sha256 = "794914127d2508580415e90b11c656215f60e88ffc2d98e82464df6954985fc9"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "x86_64"
+git-tree-sha1 = "2a6757b53d81cc6db7f47b54f7d417a306510b6c"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[VTK.download]]
-    sha256 = "0fefda9187388fa2a0e18ae89cec4b16dc7ae3c119716ddf061f7a108a510326"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "845235644d54aec5feefefc94cc69468db0ea99d607a329094ec5e052de13d43"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "x86_64"
-git-tree-sha1 = "46f48b1b0fff06eb5f5cbcfc005d307df257aada"
+git-tree-sha1 = "521f3b439a7c138142096d5661d79ec82ac6e9bb"
 lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[VTK.download]]
-    sha256 = "dfb01a6b5d659fbc2a5d55f4e659a8204d62d96b7730b2542913e0ca76006a73"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+    sha256 = "6e87211abd6c9641197693ad6afcd0ef68af62eae25a7b623b5c4f19f6299c0b"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-apple-darwin-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1d5348714bc87601f766c17af4eb1947f58a9616"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "22ea0a7722228147b697437d2d5ee9c459a32aa3"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[VTK.download]]
+    sha256 = "4201c4176a1913ab91da97872f32bcbe305be8e74f20dc8f45fc0239d295b384"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-gnu-cxx11-mpi+mpiabi.tar.gz"
+[[VTK]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "94b50da158450962e395b73a164dbe78e78e28cc"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "66ff3ab029b4c5aebc3ee6cbf4127a9a071cd44fbd35f8545f4e89bc6414acfe"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+    sha256 = "fce1bb20ca4e81efeef0be6a00cb4a005238730c1d4a758ea47b073f4aabeced"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c743c32604dfa1c97433df56f7610b1099a5ca50"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "01fe50af560cb17c93ed04a49d48d7d1c7c5ac67"
 lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "a7597cafde95aad5171e4e358a153270ad875b62a11d09884cfeefc785ff31f0"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "eec354c5128cd47cb5f4953be01bb4a9421a6362ed782aa61d0062510bc11677"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b8f3d44c8e1a628c1ea9f5b2bdde1212c264bc23"
+git-tree-sha1 = "9de96d2aad42a9216b952a844f935c3ad2d55393"
 lazy = true
-libc = "glibc"
-mpi = "mpich"
+libc = "musl"
+mpi = "mpiabi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "2c9dd4e69c0fd21c624142ec03ee957af13cabf1ba9f857d659063096ee3b6d5"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+    sha256 = "65863fd66086ce030bb38a79ae41236405c8fe383235fb1725c1e25a9320f88d"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-musl-cxx11-mpi+mpiabi.tar.gz"
 [[VTK]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e506b5a95b88ee58be799826a1aadf6f16b7845f"
-lazy = true
-libc = "glibc"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "3df9299db1ba7e7578970cbc325fea99728e46d7bfaab549c56591b66e5f79f8"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e2b97642ddbd3c0494a645a58553b41078495fdd"
+git-tree-sha1 = "fccc050c1896e4206518d9462cfd744b83535afa"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "90c5b9a916ffe985579dabfc31a83e16e06f3e073e54eb807bf48275fecbff67"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-musl-cxx03-mpi+mpich.tar.gz"
+    sha256 = "9911525f17f312da8d1c8dafe1459cd0ad106cb4be5169297c2172de46b3d03d"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "85638af07767b28a345094c973bdd1e67217d1e5"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4cdc74ed6ff7ed8017f92528d31bed8c1cef8d70"
 lazy = true
 libc = "musl"
 mpi = "openmpi"
 os = "linux"
 
     [[VTK.download]]
-    sha256 = "864540b99689c4b35e7ddf9aca45acb1b809896944301b00c529ee3e61b66690"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+    sha256 = "76fb57b67fada91343d5d2958de4494c583ae015ffa022b4d3288cde57a8fa19"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
 [[VTK]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0802f143866e201cab5d65e15c327a39dcc6864d"
+git-tree-sha1 = "4310ed2e30ea4e4f02182c5958b8d452f7316680"
 lazy = true
-libc = "musl"
-mpi = "mpich"
-os = "linux"
+mpi = "mpiabi"
+os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "5d9179d5d4b04a7e6fd2af74f93557997c1be1b945ea6288b28611880aedbe45"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
+    sha256 = "22ca75cd30a0a7e534811e3acca01adae6315d373c104614ea601f1ed56fa911"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-unknown-freebsd-mpi+mpiabi.tar.gz"
 [[VTK]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2b7d38621e1c0b09c234a906cef4b6901c2961b2"
-lazy = true
-libc = "musl"
-mpi = "openmpi"
-os = "linux"
-
-    [[VTK.download]]
-    sha256 = "fd5c5b802f40666ed4a4afd5ca141ed6bca6499d4979ae7463fbf18d7d63f9da"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
-[[VTK]]
-arch = "x86_64"
-git-tree-sha1 = "56dcfe036132d66caac49ab2f11d23a4a14da2eb"
+git-tree-sha1 = "17c1ecb2f086ef3692a30586af5a4fdb68a75527"
 lazy = true
 mpi = "mpich"
 os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "a39d0b04bec4ad56fa380b38f3e8224a56e47ead6d1dbb9f020e63d2312ab0f8"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+    sha256 = "9ce43a8003a791051101419d5ec9501ca87732ec788f4a24f59c63d3946d1cf4"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
 [[VTK]]
 arch = "x86_64"
-git-tree-sha1 = "98aded4b493fe54e818fd767fcdfd6922d83963e"
+git-tree-sha1 = "f8024a537a4adc844966b507842dec1b95411ec1"
 lazy = true
 mpi = "openmpi"
 os = "freebsd"
 
     [[VTK.download]]
-    sha256 = "6027bd10ec6c3704ffa25e06e7133c1066709cd6a9e119387c6db1bfe6436494"
-    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.5.2+0/VTK.v9.5.2.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+    sha256 = "2b5f1510edf522b7c45c2e3baef3ac934e87fe694e1b90dcbe54a34058a881f0"
+    url = "https://github.com/JuliaBinaryWrappers/VTK_jll.jl/releases/download/VTK-v9.6.1+0/VTK.v9.6.1.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"

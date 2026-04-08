@@ -8,5 +8,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("VTK")
-JLLWrappers.@generate_main_file("VTK", UUID("74d5c060-2aa8-5f16-b7f5-964146ffbc58"))
+JLLWrappers.@generate_main_file("VTK", Base.UUID("74d5c060-2aa8-5f16-b7f5-964146ffbc58"))
 end  # module VTK_jll
